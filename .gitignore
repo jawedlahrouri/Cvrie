@@ -183,5 +183,3 @@ cython_debug/
 # Project specific
 *.csv
 *.pkl
-
-/output/*
