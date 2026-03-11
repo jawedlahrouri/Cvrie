@@ -183,3 +183,4 @@ cython_debug/
 # Project specific
 *.csv
 *.pkl
+non-supervisé/cleaned_dataset.csv
