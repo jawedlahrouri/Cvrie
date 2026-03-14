@@ -184,3 +184,4 @@ cython_debug/
 *.csv
 *.pkl
 non-supervisé/cleaned_dataset.csv
+non-supervisé/clean_dataset.ipynb
