@@ -1,10 +1,10 @@
 import streamlit as st
 import joblib
 
-# config
+# Config the onglet style and content
 st.set_page_config(page_title="CVRIE - Redirection en fonction des symptomes", page_icon="🏥", layout="centered")
 
-# model loading
+# Load the right model for classified the deases and the testimony of users
 @st.cache_resource
 def load_models():
     vectoriseur = joblib.load('vectoriseur_kmeans.pkl')
@@ -14,6 +14,7 @@ def load_models():
 
 vectoriseur, svd, kmeans = load_models()
 
+# define the different part of the imaginary hospital we route the patients in
 SERVICES_HOPITAL = {
     0: "💪 Service Orthopédique - (Douleurs membres supérieurs)",
     1: "🦵 Service Orthopédique - (Douleurs membres inférieurs)",
@@ -27,7 +28,7 @@ SERVICES_HOPITAL = {
     9: "🤧 Service Allergologie / Dermatologie"
 }
 
-# form of the page
+# Create the title and the style and content of the page
 st.title("CVRIE - (model K-Means)")
 st.write("Décrivez vos symptômes ci-dessous (en anglais). L'algorithme CVRIE vous orientera.")
 
