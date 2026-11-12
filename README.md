@@ -29,7 +29,7 @@ Le dépôt est organisé de la manière suivante :
 
 1. **Cloner le projet** et se placer à la racine :
    ```bash
-   git clone https://github.com/jawedlahrouri/Cvrie
+   git clone https://github.com/jawedlahrouri/Cvrie.git
    cd Cvrie
    ```
 
