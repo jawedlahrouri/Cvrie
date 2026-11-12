@@ -30,7 +30,7 @@ Le dépôt est organisé de la manière suivante :
 1. **Cloner le projet** et se placer à la racine :
    ```bash
    git clone https://github.com/jawedlahrouri/Cvrie
-   cd CVRIE
+   cd Cvrie
    ```
 
 2. **Créer un environnement virtuel** :
