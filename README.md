@@ -1,3 +1,5 @@
+[![Academic Year](https://img.shields.io/badge/Epitech-Tek2-green?style=for-the-badge&logo=epitech&logoColor=white)](https://www.epitech.eu/)
+
 # 🏥 Projet CVRIE - Data Science & Machine Learning
 
 Bienvenue dans le dépôt du projet **CVRIE**. Ce projet explore plusieurs concepts fondamentaux de **Machine Learning** avec Python, en se divisant en trois grandes parties fonctionnelles : l'apprentissage **supervisé**, l'apprentissage **non-supervisé** et la mise en pratique via une **application interactive**.
